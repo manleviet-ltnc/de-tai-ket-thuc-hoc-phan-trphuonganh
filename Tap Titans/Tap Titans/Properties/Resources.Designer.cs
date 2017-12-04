@@ -73,6 +73,16 @@ namespace Tap_Titans.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _24204752_882053258612189_110757496_n1 {
+            get {
+                object obj = ResourceManager.GetObject("24204752_882053258612189_110757496_n1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _24273264_882051815279000_225976857_n {
             get {
                 object obj = ResourceManager.GetObject("24273264_882051815279000_225976857_n", resourceCulture);
@@ -96,6 +106,16 @@ namespace Tap_Titans.Properties {
         internal static System.Drawing.Bitmap _24321790_882050081945840_1330418632_o1 {
             get {
                 object obj = ResourceManager.GetObject("24321790_882050081945840_1330418632_o1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _24321790_882050081945840_1330418632_o2 {
+            get {
+                object obj = ResourceManager.GetObject("24321790_882050081945840_1330418632_o2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
