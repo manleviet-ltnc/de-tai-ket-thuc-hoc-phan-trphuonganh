@@ -33,6 +33,8 @@
             this.pbxPhai = new System.Windows.Forms.PictureBox();
             this.pbxBoss = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPhai)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBoss)).BeginInit();
             this.SuspendLayout();
@@ -45,6 +47,7 @@
             this.progressBar1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.progressBar1.Size = new System.Drawing.Size(266, 23);
             this.progressBar1.TabIndex = 1;
+            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
             // pbxPhai
             // 
@@ -102,6 +105,8 @@
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.PictureBox pbxPhai;
         private System.Windows.Forms.Button button1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker2;
     }
 }
 
